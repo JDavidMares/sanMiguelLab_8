@@ -9,4 +9,4 @@
 
 landing_zone:
     path: /
-    controller: App\Controller\LandingPageController::getLandignPage
+    controller: App\Controller\LandingPageController::get_landing_page
