@@ -11,7 +11,7 @@ class LandingPageController extends AbstractController
 
     }
 
-    public function getLandingPage (){
-        
+    public function get_landing_page (){
+        return $this->render('general_views/landing_page.html.twig');
     }
 }
